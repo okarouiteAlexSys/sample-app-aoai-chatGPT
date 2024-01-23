@@ -6,6 +6,7 @@
 
 .header {
     background-color: #f2f2f2;
+    padding-right: 20px;
 }
 
 .headerContainer {
@@ -34,7 +35,7 @@
 .headerIcon {
     height: 32px;
     width: 32px;
-    margin-left: 36px;
+    margin-left: 16px;
 }
 
 .shareButtonContainer {

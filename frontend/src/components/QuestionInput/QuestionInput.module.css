@@ -21,7 +21,7 @@
 
 .questionInputSendButtonContainer {
     position: absolute;
-    right: 24px;
+    left: 24px;
     bottom: 20px;
 }
 
@@ -36,6 +36,7 @@
     height: 23px;
     background: none;
     color: #424242;
+    transform: rotate(180deg);
 }
 
 .questionInputBottomBorder {
