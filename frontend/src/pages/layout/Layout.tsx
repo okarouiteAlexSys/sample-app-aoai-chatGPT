@@ -2,6 +2,7 @@ import { Outlet, Link } from "react-router-dom";
 import styles from "./Layout.module.css";
 import Contoso from "../../assets/Contoso.svg";
 import LogoFR from "../../assets/LogoFR.svg";
+import LogoAR from "../../assets/LogoAR.png";
 import { CopyRegular, ShareRegular } from "@fluentui/react-icons";
 import { Dialog, Stack, TextField, ICommandBarStyles, IButtonStyles } from "@fluentui/react";
 import { useContext, useEffect, useState } from "react";
@@ -45,6 +46,7 @@ const Layout = () => {
     return (
         <div className={styles.layout}>
             <header className={styles.header} role={"banner"}>
+                <img src={LogoAR} className={styles.logoAR}/>
                 <Stack horizontal verticalAlign="center" horizontalAlign="space-between">
                     <Stack horizontal verticalAlign="center">
                         <img
